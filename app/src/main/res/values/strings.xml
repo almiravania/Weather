@@ -1,0 +1,54 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Weather</string>
+    <string name="Cuaca">Cuaca</string>
+    <string name="Name">Name</string>
+    <string name="Nama_Kota">Nama Kota</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="Hujan">Hujan</string>
+    <string name="Cerah">Cerah</string>
+    <string name="pukul">pukul</string>
+    <string name="initial_scale_value">2</string>
+    <string name="order_summary_name">Name <xliff:g id="name" example="">%s</xliff:g></string>
+    <string name="order_summary_information">Terjadi di  <xliff:g id="information" example="">%s</xliff:g></string>
+    <string name="order_summary_Hujan" translatable="false">Hujan ? <xliff:g id="addHujan" example="true">%b</xliff:g></string>
+    <string name="order_summary_Cerah">Cerah <xliff:g id="addCerah" example="true">%b</xliff:g></string>
+    <string name="order_summary_pukul">Pukul  <xliff:g id="pukul" example="2">%d</xliff:g></string>
+    <string name="thank_you">Your report has been accepted, thanks for the report.</string>
+    <string name="order_summary_email_subject">Report Weather for <xliff:g id="name , information , addHujan , addCerah , pukul " >%s</xliff:g></string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_phrases">Phrases</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_colors">Colors</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_numbers">Numbers</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_family">Family </string>
+
+    <string-array name="countries_arry">
+        <item>Cuaca Cerah</item>
+        <item>Cuaca Cerah Berawan</item>
+        <item>Cuaca Panas</item>
+        <item>Cuaca Berawan</item>
+        <item>Cuaca Sejuk</item>
+        <item>Cuaca Hujan</item>
+        <item>Cuaca Berangin</item>
+        <item>Cuaca Mendung</item>
+        <item>Cuaca Langit Cerah</item>
+        <item>Cuaca Gerimis</item>
+        <item>Cuaca Hujan Sedang</item>
+        <item>Cuaca Awan Mendung</item>
+        <item>Cuaca Sedikit Berawan</item>
+        <item>Cuaca Sebagian Berawan</item>
+        <item>Cuaca Badai</item>
+        <item>Cuaca Bersalju</item>
+        <item>Cuaca Berkabut</item>
+        <item>Cuaca Hujan Es</item>
+        <item>Cuaca Hujan Deras</item>
+        <item>Cuaca Salju Tebal</item>
+    </string-array>
+
+</resources>

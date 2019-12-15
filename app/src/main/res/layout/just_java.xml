@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.almiraapp.justJava" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_gravity="center"
+            android:text="@string/Name" />
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="                                 Nama Anda"
+            android:inputType="textCapWords" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_gravity="center"
+            android:text="Nama Kota" />
+
+        <EditText
+            android:id="@+id/name_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="                                        Kota"
+            android:inputType="textCapWords"/>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_gravity="center"
+            android:text="Cuaca" />
+
+        <CheckBox
+            android:id="@+id/Hujan_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="24dp"
+            android:text="Hujan"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/Cerah_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="24dp"
+            android:text="Cerah"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Pukul"
+            android:layout_gravity="center"
+            style="@style/HeaderTextStyle" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_decrement"
+                android:layout_height="48dp"
+                android:layout_width="48dp"
+                android:text="-"
+                android:onClick="decrement"/>
+
+            <TextView
+                android:id="@+id/quantity_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/initial_scale_value"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"/>
+
+            <Button
+                android:id="@+id/button_increment"
+                android:layout_height="48dp"
+                android:layout_width="48dp"
+                android:text="+"
+                android:onClick="increment"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/button_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:onClick="submitOrder"
+            android:layout_gravity="center"
+            android:text="Report" />
+
+    </LinearLayout>
+</ScrollView>

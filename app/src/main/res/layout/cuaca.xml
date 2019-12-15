@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.almiraapp.cuacaActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+
+        android:text="                           Cuaca  "
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/cuaca" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="255dp"
+        android:scrollbars="vertical"
+        android:text="          Cuaca adalah seluruh fenomena yang terjadi di atmosfer Bumi atau sebuah planet lainnya. Cuaca biasanya merupakan sebuah aktivitas fenomena dalam waktu beberapa hari. Cuaca rata-rata dengan jangka waktu yang lebih lama dikenal sebagai iklim. Aspek cuaca ini diteliti lebih lanjut oleh ahli klimatologi, untuk tanda-tanda perubahan iklim."
+        android:textColor="#ffffff"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="21dp"
+        android:scrollbars="vertical"
+        android:text="          Cuaca terjadi karena suhu dan kelembaban yang berbeda antara satu tempat dengan tempat lainnya. Perbedaan ini bisa terjadi karena sudut pemanasan matahari yang berbeda dari satu tempat ke tempat lainnya karena perbedaan lintang bumi. Perbedaan yang tinggi antara suhu udara di daerah tropis dan daerah kutub bisa menimbulkan jet stream. Sumbu bumi yang miring dibanding orbit bumi terhadap matahari membuat perbedaan cuaca sepanjang tahun untuk daerah sub tropis hingga kutub. Di permukaan bumi suhu biasanya berkisar ± 40 °C. Selama ribuan tahun perubahan orbit bumi juga memengaruhi jumlah dan distribusi energi matahari yang diterima oleh bumi dan memengaruhi iklim jangka panjang."
+        android:textColor="#ffffff"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="299dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="-43dp"
+        android:scrollbars="vertical"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_backk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#778899"
+        android:textColor="#FFFAF0"
+        android:text="Kembali"
+        android:layout_marginLeft="156dp"/>
+
+</RelativeLayout>
